@@ -1,11 +1,12 @@
 #include "PhoneBook.hpp"
 
-PhoneBook::PhoneBook()//this means Every time a PhoneBook object is created, set i to 0.” 
+PhoneBook::PhoneBook()
 {
 	i = 0;
 }
 
-static void print_list(int index, const std::string& first, const std::string& last, const std::string& nick) {
+static void print_list(int index, const std::string& first, const std::string& last, const std::string& nick) 
+{
 	
     std::string f; 
     if (first.length() > 10)
@@ -31,28 +32,14 @@ static void print_list(int index, const std::string& first, const std::string& l
 
 void PhoneBook::addCont()
 {
-	/*
-		This means:
-
-		Each time the user types ADD, only one contact should be added.
-		Your loop adds 8 contacts in a row without returning to the main menu → breaks the command loop.
-		✅ Correct behavior:
-
-		User types ADD → program asks for one contact → saves it → goes back to “Enter command:”
-		Next ADD → adds another (or overwrites oldest if full)
-		So addContact() must add exactly one contact per call — not 8.
-	*/
-
-	Contact c; //Every time you call addContact(), you create one temporary Contact called c
-
-
-	if(!c.fill())//You fill it with user input
+	Contact c; 
+	if(!c.fill())
 	{
 		std::cout<<"contact cant save an empty field \n";
 		return;
 	}
-		contacts[i%8]= c;//Now you need to save it into the array//Put this new contact in the correct slot — and if we’re past 8, wrap around and replace the oldest.”
-		i++;//= total number of contacts ever added (starts at 0)//so next time, we know how many we’ve added in total (even if we overwrote some)
+		contacts[i%8]= c;
+		i++;
 }
 void PhoneBook::searchCont()
 {
