@@ -3,3 +3,6 @@ CPP Modules are C++ projects focused on Object-Oriented Programming (OOP). Throu
 
 ## CPP00  
 In this module, we learned how to create and use classes, work with namespaces correctly, use streams, and handle errors properly in C++.
+
+## CPP01
+In this module, we learned how to perform memory allocation in C++ using new and delete. We also learned about the difference between pointers and references, and how to create pointers to member functions.
