@@ -6,3 +6,6 @@ In this module, we learned how to create and use classes, work with namespaces c
 
 ## CPP01
 In this module, we learned how to perform memory allocation in C++ using new and delete. We also learned about the difference between pointers and references, and how to create pointers to member functions.
+
+## CPP02
+In this module, we learned about creating classes in the orthodox canonical style, the use of fixed data types for memory optimization on older computers, ad-hoc polymorphism, and method overloading.
