@@ -9,3 +9,6 @@ In this module, we learned how to perform memory allocation in C++ using new and
 
 ## CPP02
 In this module, we learned about creating classes in the orthodox canonical style, the use of fixed data types for memory optimization on older computers, ad-hoc polymorphism, and method overloading.
+
+## CPP03
+In this module, we learned about inheritance by creating derived classes that inherit members of a base class.
