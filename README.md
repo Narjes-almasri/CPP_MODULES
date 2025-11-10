@@ -12,3 +12,6 @@ In this module, we learned about creating classes in the orthodox canonical styl
 
 ## CPP03
 In this module, we learned about inheritance by creating derived classes that inherit members of a base class.
+
+## CPP04
+In this module, we learned about subtype polymorphism, abstract classes, and interfaces (pure abstract classes).
